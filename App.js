@@ -6,6 +6,7 @@ import LoginScreen from './screens/LoginScreen';
 import DashboardScreen from './screens/DashboardScreen';
 import AdminTabs from './screens/AdminTabs';
 
+
 const Stack = createNativeStackNavigator();
 
 // Écran de secours au cas où les composants ne se chargent pas
