@@ -1,28 +1,39 @@
 {
   "expo": {
     "name": "suivi-objectifs",
-    "slug": "suivi-objectifs-consultants-tat",
+    "slug": "suivi-objectifs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+	"platforms": ["ios", "android", "web"],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.admintalentaccess.snack9b3c25b8905743679fde1a5691471c62",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.admintalentaccess.snack9b3c25b8905743679fde1a5691471c62"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c5638752-444e-4b04-9b6f-05457e7d7286"
+      }
     }
   }
 }
